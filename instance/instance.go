@@ -52,7 +52,7 @@ func (in *Instance) Start() error {
 	if in.Client == nil {
 		return fmt.Errorf("no client")
 	}
-	if in.ChannelID == "" {
+	if in.ChannelID == "746581106299633734" {
 		return fmt.Errorf("no channel id")
 	}
 	if len(in.Shifts) == 0 {
